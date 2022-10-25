@@ -1,0 +1,51 @@
+.flexbox-container {
+    content: 'Flexbox container';
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf
+}
+
+.flexbox-item-1 {
+    flex: 1 0 0;
+    min-height: 100px;
+    flex-shrink:0;
+    align-self: center;
+    order: 1;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+
+.flexbox-item-2 {
+    flex-grow: 1;
+    flex-basis: 50%;
+    min-height: 200px;
+    align-self: center;
+    order: 2;
+    flex-wrap: wrap;
+}
+
+.flexbox-item-3 {
+    flex-grow: 1;
+    min-height: 300px;
+    flex-basis: 50%;
+    align-self: center;
+    order: 3;
+    flex-wrap: wrap;
+}
+
+.flexbox-item-4 {
+    flex-grow: 1;
+    min-height: 400px;
+    flex-basis: 50%;
+    align-self: center;
+    order: 4;
+    flex-wrap: wrap;
+}

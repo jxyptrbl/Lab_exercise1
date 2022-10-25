@@ -25,22 +25,25 @@ body {
   }
   
   .label {
-    margin: auto;
+    width: 30%;
+    padding: 20px;
+    margin: 9px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
     text-align: left;
-    width: 92%;
-    font-size: larger;
-    
-  }
+    margin-left: 500px;
+}
+
   
 .button {
     background-color: #479c5f;
-    border: none;
     color: white;
     padding: 7px 16px;
-    text-align: center;
     display: inline-block;
     font-size: 9px;
     border-radius: 12px;
+    transition-duration: 0.4s;
 }
 
 input[type=text] {
@@ -57,4 +60,9 @@ input[type=number] {
     display: inline-block;
     border: 2px solid yellow;
     border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
 }
